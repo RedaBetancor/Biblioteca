@@ -9,12 +9,12 @@ This is a project based on a book store where customers have the option to get a
 2. [Acknowledgments]
 3. [Authors]
 
-1. # Instructions
+# Instructions
 
 To use this project, you will need to download the file in ".ZIP" format and extract it, and now you will be able to use it, study it, or improve it.
 
 
-2. # Acknowledgments 
+# Acknowledgments 
 
 To be able to complete this project, I had to search for a lot of information, and I wanted to thank the following websites that provided me with the solution to what I was looking for.
 
@@ -25,6 +25,6 @@ https://www.mclibre.org/consultar/xml/lecciones/xml-dtd.html
 And a special thanks to my teacher Tiburcio Cruz Ravelo, without whom I would be much more lost.
 
 
-3. # Authors 
+# Authors 
 
 The author of this project is Reda Betancor.
