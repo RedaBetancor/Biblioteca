@@ -17,6 +17,7 @@ This is a project based on a book store where customers have the option to get a
 https://www.abrirllave.com/dtd/espacios-de-nombres.php
 https://www.abrirllave.com/dtd/atributos.php#:~:text=La%20sintaxis%20b%C3%A1sica%20para%20declarar%20un%20atributo%20en,de%20un%20atributo%20indicando%20un%20valor%20por%20defecto
 https://www.mclibre.org/consultar/xml/lecciones/xml-dtd.html
+
 And a special thanks to my teacher Tiburcio Cruz Ravelo, without whom I would be much more lost.
 
 
