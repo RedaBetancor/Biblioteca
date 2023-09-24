@@ -1,0 +1,25 @@
+
+<!ELEMENT BookShop (Timetable, w:Workers, c:Clients, Products)>
+<!ATTLIST BookShop Place CDATA #PCDATA>
+<!ELEMENT Timetable (WorkingD, OpeningH)>
+<!ELEMENT WorkingD (#PCDATA)>
+<!ELEMENT OpeningH (#PCDATA)>
+<!ELEMENT w:Workers (w:Worker)>
+<!ATTLIST w:Workers xmlns:w CDATA #REQUIRED>
+<!ELEMENT w:Worker (w:Name, w:DNI, w:Age)>
+<!ELEMENT w:Name (#PCDATA)> 
+<!ELEMENT w:DNI (#PCDATA)>
+<!ELEMENT w:Age (#PCDATA)>
+<!ELEMENT c:Clients (c:Client*)>
+<!ATTLIST c:Clients xmlns:c CDATA #REQUIRED>
+<!ELEMENT c:Client (c:Name*, c:DNI*, c:Email*, c:PhoneN*)>
+<!ELEMENT c:Name (#PCDATA)>
+<!ELEMENT c:DNI (#PCDATA)>  
+<!ELEMENT c:Email (#PCDATA)>
+<!ELEMENT c:PhoneN (#PCDATA)>
+<!ELEMENT Products (Product)>
+<!ELEMENT Product (Id, Price, Offer, Quantity)>
+<!ELEMENT Id (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Offer (#PCDATA)>
+<!ELEMENT Quantity (#PCDATA)>

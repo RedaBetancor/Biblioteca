@@ -1,0 +1,60 @@
+
+<!DOCTYPE BookShop SYSTEM "BookShop.dtd">
+
+<BookShop place="C/Doctor Juan de Padilla, 19, Las Palmas de Gran Canaria">
+
+    <Timetable>
+
+        <WorkingD>Abrimos de lunes a viernes</WorkingD>
+        <OpeningH>Nuestro horario es de 09:00 a 17:30</OpeningH>
+
+    </Timetable>
+
+    <w:Workers xmlns:w="http://www.workers.com/worker">
+        
+        <w:Worker>
+
+            <w:Name>Pablo</w:Name>
+            <w:DNI>49986748W</w:DNI>
+            <w:Age>28</w:Age>
+        
+        </w:Worker>
+
+    </w:Workers>
+
+    <c:Clients xmlns:c="https://www.clients.com/client">
+
+        <c:Client>
+
+            <c:Name>David</c:Name>
+            <c:DNI>49964739D</c:DNI>
+            <c:Email>davidsantidad@gmail.com</c:Email>
+            <c:PhoneN>622746385</c:PhoneN>
+
+        </c:Client>
+
+        <c:Client>
+
+            <c:Name>Augusto</c:Name>
+            <c:DNI>49983745E</c:DNI>
+            <c:Email>augustodelafe@gmail.com</c:Email>
+            <c:PhoneN></c:PhoneN>
+
+        </c:Client>
+
+    </c:Clients>
+
+    <Products>
+
+        <Product>
+
+            <Id>B0BXPJ1Z1S</Id>
+            <Price>18,00€</Price>
+            <Offer>No</Offer>
+            <Quantity>2</Quantity>
+
+        </Product>
+
+    </Products>
+    
+</BookShop>
