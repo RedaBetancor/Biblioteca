@@ -11,13 +11,13 @@
     </Timetable>
 
     <w:Workers xmlns:w="http://www.workers.com/worker">
-        
+
         <w:Worker>
 
             <w:Name>Pablo</w:Name>
             <w:DNI>49986748W</w:DNI>
             <w:Age>28</w:Age>
-        
+
         </w:Worker>
 
     </w:Workers>
@@ -56,5 +56,5 @@
         </Product>
 
     </Products>
-    
+
 </BookShop>

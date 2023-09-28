@@ -1,17 +1,16 @@
-
 <!ELEMENT BookShop (Timetable, w:Workers, c:Clients, Products)>
-<!ATTLIST BookShop Place CDATA #PCDATA>
+<!ATTLIST BookShop place CDATA #PCDATA>
 <!ELEMENT Timetable (WorkingD, OpeningH)>
 <!ELEMENT WorkingD (#PCDATA)>
 <!ELEMENT OpeningH (#PCDATA)>
 <!ELEMENT w:Workers (w:Worker)>
-<!ATTLIST w:Workers xmlns:w CDATA #REQUIRED>
+<!ATTLIST w:Workers xmlns:w CDATA #PCDATA>
 <!ELEMENT w:Worker (w:Name, w:DNI, w:Age)>
 <!ELEMENT w:Name (#PCDATA)> 
 <!ELEMENT w:DNI (#PCDATA)>
 <!ELEMENT w:Age (#PCDATA)>
 <!ELEMENT c:Clients (c:Client*)>
-<!ATTLIST c:Clients xmlns:c CDATA #REQUIRED>
+<!ATTLIST c:Clients xmlns:c CDATA #PCDATA>
 <!ELEMENT c:Client (c:Name*, c:DNI*, c:Email*, c:PhoneN*)>
 <!ELEMENT c:Name (#PCDATA)>
 <!ELEMENT c:DNI (#PCDATA)>  
